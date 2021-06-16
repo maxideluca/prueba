@@ -1,5 +1,2 @@
-module Library where
-import PdePreludat
-
-doble :: Number -> Number
-doble numero = numero + numero
+doblenumero :: Int->Int
+doblenumero n1= 2*n1
