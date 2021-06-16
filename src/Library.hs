@@ -1,2 +1,2 @@
 doblenumero :: Int->Int
-doblenumero n1= 2*n1
+doblenumero n1= 3*n1
