@@ -61,3 +61,6 @@ quiengana equipo1 equipo2 | funcion1 equipo1>funcion1 equipo2= equipo1
 
 funcion1 :: Equipo->Float
 funcion1= sum.(map promediogol).(take 11).quickSort (\jugador1 jugador2 ->cansancio jugador1<cansancio jugador2).jugadores 
+
+hinchaderiver:: Jugador->Bool
+hinchaderiver unjugador=((>100).habilidad)unjugador
